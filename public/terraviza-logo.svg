@@ -1,0 +1,23 @@
+<svg width="820" height="210" viewBox="0 0 820 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terraviza logo option D">
+  <defs>
+    <linearGradient id="tileD" x1="32" y1="32" x2="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7ED"/>
+      <stop offset="1" stop-color="#E7F5EC"/>
+    </linearGradient>
+    <linearGradient id="blockD" x1="61" y1="67" x2="146" y2="146" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86EFAC"/>
+      <stop offset="0.5" stop-color="#2D6A4F"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+  <rect x="22" y="22" width="166" height="166" rx="26" fill="url(#tileD)" stroke="#E2DCCB" stroke-width="2"/>
+  <path d="M59 68H91V140H59V68Z" fill="#FFFFFF" stroke="#12302A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M91 91H123V140H91V91Z" fill="url(#blockD)" stroke="#12302A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M123 57H151V140H123V57Z" fill="#FFFFFF" stroke="#12302A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M58 154C78 132 96 126 116 130C133 133 144 122 156 103" stroke="#F97316" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="75" cy="82" r="4" fill="#12302A"/>
+  <circle cx="107" cy="104" r="4" fill="#F8FAF7"/>
+  <circle cx="138" cy="72" r="4" fill="#12302A"/>
+  <text x="222" y="121" fill="#203027" font-family="'Trebuchet MS', Inter, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-1.4">Terra<tspan fill="#0F766E">viza</tspan></text>
+  <text x="226" y="150" fill="#8A6A2D" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">ASSET-LEVEL CLIMATE DECISIONS</text>
+</svg>

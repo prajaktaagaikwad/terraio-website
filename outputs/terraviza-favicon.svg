@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terraviza">
+  <defs>
+    <linearGradient id="tile" x1="8" y1="8" x2="88" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7ED"/>
+      <stop offset="1" stop-color="#E7F5EC"/>
+    </linearGradient>
+    <linearGradient id="block" x1="30" y1="31" x2="68" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86EFAC"/>
+      <stop offset="0.5" stop-color="#2D6A4F"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="21" fill="url(#tile)"/>
+  <path d="M25 34H39V69H25V34Z" fill="#FFFFFF" stroke="#12302A" stroke-width="4.4" stroke-linejoin="round"/>
+  <path d="M39 45H55V69H39V45Z" fill="url(#block)" stroke="#12302A" stroke-width="4.4" stroke-linejoin="round"/>
+  <path d="M55 28H70V69H55V28Z" fill="#FFFFFF" stroke="#12302A" stroke-width="4.4" stroke-linejoin="round"/>
+  <path d="M23 78C35 65 45 62 56 64C65 66 72 59 78 49" stroke="#F97316" stroke-width="5.4" stroke-linecap="round"/>
+  <circle cx="32" cy="41" r="2.6" fill="#12302A"/>
+  <circle cx="47" cy="51" r="2.6" fill="#F8FAF7"/>
+  <circle cx="63" cy="35" r="2.6" fill="#12302A"/>
+</svg>

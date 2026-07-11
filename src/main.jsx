@@ -36,12 +36,12 @@ const nav = [
   { label: "FAQ", href: "/#faq" }
 ];
 
-const logoSrc = "/terraio-logo-v2.svg?v=20260706";
+const logoSrc = "/terraviza-logo.svg?v=terraviza-d";
 
 const products = [
   {
     slug: "map",
-    name: "Terraio Map",
+    name: "Terraviza Map",
     href: "/products/map",
     icon: Map,
     headline: "Visualise climate risk at asset level.",
@@ -51,7 +51,7 @@ const products = [
   },
   {
     slug: "actions",
-    name: "Terraio Actions",
+    name: "Terraviza Actions",
     href: "/products/actions",
     icon: FileCheck2,
     headline: "Turn climate insights into action.",
@@ -61,7 +61,7 @@ const products = [
   },
   {
     slug: "finance",
-    name: "Terraio Finance",
+    name: "Terraviza Finance",
     href: "/products/finance",
     icon: LineChart,
     headline: "Understand financial impact.",
@@ -76,17 +76,17 @@ const productPages = {
     product: products[0],
     eyebrow: "Climate GIS for portfolios",
     hero: "See physical climate risk down to the building.",
-    intro: "Terraio Map turns hazard models, geospatial data and asset information into an operating picture your underwriting, investment and municipal teams can trust.",
+    intro: "Terraviza Map turns hazard models, geospatial data and asset information into an operating picture your underwriting, investment and municipal teams can trust.",
     problem: "GIS teams can model exposure, but executives still receive static reports, screenshots and disconnected spreadsheets.",
     solution: "Bring every property, hazard, model run and adaptation option into one live spatial interface.",
     workflow: ["Import portfolio", "Select climate scenario", "Inspect asset exposure", "Share executive map"],
     capabilities: ["Parcel-level hazard overlays", "Scenario comparison", "Portfolio clustering", "Map exports for committees"],
     uses: ["Real estate portfolio reviews", "Municipal adaptation planning", "Insurance accumulation analysis"],
     integrations: ["ArcGIS", "QGIS", "Snowflake", "S3", "PostGIS"],
-    ai: "The Terraio AI Engine normalises multi-source climate models, explains confidence bands and surfaces the drivers behind each asset-level score.",
+    ai: "The Terraviza AI Engine normalises multi-source climate models, explains confidence bands and surfaces the drivers behind each asset-level score.",
     security: "Tenant-isolated spatial storage, role-based map layers, encrypted asset uploads and auditable model provenance.",
     faqs: [
-      ["Can Terraio Map use our building polygons?", "Yes. Teams can import parcels, building footprints, addresses and portfolio IDs, then preserve ownership metadata across layers."],
+      ["Can Terraviza Map use our building polygons?", "Yes. Teams can import parcels, building footprints, addresses and portfolio IDs, then preserve ownership metadata across layers."],
       ["Which hazards are supported?", "Flood, pluvial flood, coastal risk, heat, wildfire, storm and compound event screening are available in the product experience."],
       ["Can maps be used in investment committees?", "Yes. Map states, layers and selected assets can be exported as board-ready packs with assumptions attached."]
     ]
@@ -95,7 +95,7 @@ const productPages = {
     product: products[1],
     eyebrow: "Adaptation planning workspace",
     hero: "Move from risk awareness to funded resilience work.",
-    intro: "Terraio Actions ranks interventions, estimates adaptation costs and turns climate intelligence into accountable project plans.",
+    intro: "Terraviza Actions ranks interventions, estimates adaptation costs and turns climate intelligence into accountable project plans.",
     problem: "Climate studies often stop at diagnosis, leaving asset teams with a long list of risks and no investment sequence.",
     solution: "Convert exposure into prioritised projects with cost ranges, benefits, owners and timelines.",
     workflow: ["Detect risk drivers", "Generate options", "Rank by ROI", "Track implementation"],
@@ -107,14 +107,14 @@ const productPages = {
     faqs: [
       ["Are recommendations generic?", "No. Recommendations are ranked against the asset type, hazard drivers, replacement value and local adaptation context."],
       ["Can we edit assumptions?", "Yes. Cost bands, avoided-loss estimates and discount rates can be adjusted before projects move into approval."],
-      ["Does Terraio track completion?", "Yes. Actions supports project status, owners, dates and resilience uplift after completion."]
+      ["Does Terraviza track completion?", "Yes. Actions supports project status, owners, dates and resilience uplift after completion."]
     ]
   },
   finance: {
     product: products[2],
     eyebrow: "Climate financial intelligence",
     hero: "Translate climate exposure into financial decisions.",
-    intro: "Terraio Finance helps lenders, insurers and asset owners quantify insurance pressure, capex needs and scenario-adjusted investment exposure.",
+    intro: "Terraviza Finance helps lenders, insurers and asset owners quantify insurance pressure, capex needs and scenario-adjusted investment exposure.",
     problem: "Finance teams need climate numbers that connect to premiums, budgets, valuations and capital planning.",
     solution: "Model the financial effect of risk, adaptation and time horizons in one executive-grade workspace.",
     workflow: ["Load values", "Model exposure", "Stress-test scenarios", "Approve budgets"],
@@ -124,7 +124,7 @@ const productPages = {
     ai: "The AI Engine explains premium movement, probable loss contribution and adaptation payback using transparent assumptions.",
     security: "Financial workspaces include permissioned portfolios, encrypted model inputs and audit trails for every scenario version.",
     faqs: [
-      ["Does Terraio replace catastrophe models?", "No. It complements existing models by translating physical climate signals into finance and asset decisions."],
+      ["Does Terraviza replace catastrophe models?", "No. It complements existing models by translating physical climate signals into finance and asset decisions."],
       ["Can we model multiple horizons?", "Yes. Common horizons include 2030, 2040 and 2050, with scenario comparisons and assumption notes."],
       ["Can outputs go to boards?", "Yes. Finance produces concise executive summaries with portfolio charts, risks, assumptions and recommended budget ranges."]
     ]
@@ -151,7 +151,7 @@ const testimonials = [
   {
     name: "Anna Kowalska",
     role: "Director of Asset Management, Echo Investment",
-    quote: "Terraio helped our team move beyond static climate reports. We can now prioritise resilience work building by building and explain the financial case clearly."
+    quote: "Terraviza helped our team move beyond static climate reports. We can now prioritise resilience work building by building and explain the financial case clearly."
   },
   {
     name: "Michał Zieliński",
@@ -161,7 +161,7 @@ const testimonials = [
   {
     name: "Katarzyna Nowak",
     role: "Climate Programme Lead, City of Gdańsk",
-    quote: "Terraio turns technical climate layers into decisions our infrastructure, finance and planning teams can work with together."
+    quote: "Terraviza turns technical climate layers into decisions our infrastructure, finance and planning teams can work with together."
   }
 ];
 
@@ -172,11 +172,11 @@ const pricing = [
 ];
 
 const faqs = [
-  ["What does Terraio actually do?", "Terraio combines climate hazard data, geospatial intelligence and financial modelling so organisations can understand physical climate risk at asset and portfolio level."],
-  ["Who is Terraio built for?", "Real estate owners, insurers, lenders, infrastructure operators and municipalities that need climate intelligence connected to financial and operational decisions."],
-  ["Does Terraio use AI?", "Yes. AI supports model interpretation, recommendation ranking, portfolio summarisation and executive reporting while keeping assumptions visible."],
-  ["Can Terraio work with our own data?", "Yes. The platform can ingest asset lists, location data, insured values, building metadata, historical losses and internal project assumptions."],
-  ["Is this only for Poland?", "No. Terraio is Poland-based and supports international portfolios, with coverage designed for enterprise teams operating across markets."]
+  ["What does Terraviza actually do?", "Terraviza combines climate hazard data, geospatial intelligence and financial modelling so organisations can understand physical climate risk at asset and portfolio level."],
+  ["Who is Terraviza built for?", "Real estate owners, insurers, lenders, infrastructure operators and municipalities that need climate intelligence connected to financial and operational decisions."],
+  ["Does Terraviza use AI?", "Yes. AI supports model interpretation, recommendation ranking, portfolio summarisation and executive reporting while keeping assumptions visible."],
+  ["Can Terraviza work with our own data?", "Yes. The platform can ingest asset lists, location data, insured values, building metadata, historical losses and internal project assumptions."],
+  ["Is this only for Poland?", "No. Terraviza is Poland-based and supports international portfolios, with coverage designed for enterprise teams operating across markets."]
 ];
 
 function App() {
@@ -227,7 +227,7 @@ function Navbar() {
 
   return (
     <header className="nav-shell">
-      <a className="brand" href="/" aria-label="Terraio home">
+      <a className="brand" href="/" aria-label="Terraviza home">
         <img src={logoSrc} alt="" />
       </a>
       <nav className={open ? "nav-links open" : "nav-links"}>
@@ -373,7 +373,7 @@ function Metric({ label, value, tone }) {
 function Problem() {
   return (
     <section className="section light">
-      <SectionIntro title="Climate risk shouldn't be impossible to understand." text="Asset owners receive fragmented reports, insurers struggle to evaluate exposure and investment teams lack clear climate insights. Terraio transforms complex environmental data into practical financial decisions." />
+      <SectionIntro title="Climate risk shouldn't be impossible to understand." text="Asset owners receive fragmented reports, insurers struggle to evaluate exposure and investment teams lack clear climate insights. Terraviza transforms complex environmental data into practical financial decisions." />
       <div className="card-grid four">
         {problemCards.map(([title, text, Icon]) => <SpotlightCard key={title} title={title} text={text} Icon={Icon} link />)}
       </div>
@@ -410,7 +410,7 @@ function Solution() {
 function Products() {
   return (
     <section className="section" id="products">
-      <SectionIntro title="Product modules built for decisions." text="Each Terraio product gives specialist teams the depth they need while sharing one climate intelligence foundation." />
+      <SectionIntro title="Product modules built for decisions." text="Each Terraviza product gives specialist teams the depth they need while sharing one climate intelligence foundation." />
       <div className="product-grid">
         {products.map((p, i) => <ProductCard key={p.slug} product={p} index={i} />)}
       </div>
@@ -440,7 +440,7 @@ function MiniPreview({ type }) {
 function Platform() {
   return (
     <section className="section platform" id="platform">
-      <SectionIntro title="A premium executive dashboard." text="Terraio gives leaders a calm, board-ready operating system for climate exposure, project budgets and insurance strategy." />
+      <SectionIntro title="A premium executive dashboard." text="Terraviza gives leaders a calm, board-ready operating system for climate exposure, project budgets and insurance strategy." />
       <Dashboard />
     </section>
   );
@@ -462,7 +462,7 @@ function Dashboard() {
   return (
     <div className="dashboard-shell">
       <aside>
-        <img src={logoSrc} alt="Terraio" />
+        <img src={logoSrc} alt="Terraviza" />
         {["Overview", "Map", "Actions", "Finance", "Reports"].map((x, i) => <span className={i === 0 ? "active" : ""} key={x}>{x}</span>)}
       </aside>
       <div className="dash-main">
@@ -484,7 +484,7 @@ function Dashboard() {
 function Benefits() {
   return (
     <section className="section light">
-      <SectionIntro title="Built for teams that carry climate responsibility." text="Terraio helps climate, finance, risk and asset teams share one version of the future." />
+      <SectionIntro title="Built for teams that carry climate responsibility." text="Terraviza helps climate, finance, risk and asset teams share one version of the future." />
       <div className="card-grid three">{benefits.map(([title, text, Icon]) => <SpotlightCard key={title} title={title} text={text} Icon={Icon} />)}</div>
     </section>
   );
@@ -501,7 +501,7 @@ function Stats() {
 function Testimonials() {
   return (
     <section className="section testimonials">
-      <SectionIntro title="Trusted by Polish enterprise leaders." text="Real teams use Terraio to explain climate risk with the clarity required for investment, insurance and public infrastructure decisions." />
+      <SectionIntro title="Trusted by Polish enterprise leaders." text="Real teams use Terraviza to explain climate risk with the clarity required for investment, insurance and public infrastructure decisions." />
       <div className="testimonial-grid">
         {testimonials.map((t) => <article key={t.name}><div className="avatar">{t.name.split(" ").map((n) => n[0]).join("")}</div><p>“{t.quote}”</p><strong>{t.name}</strong><span>{t.role}</span></article>)}
       </div>
@@ -554,7 +554,7 @@ function SignInPage() {
     <main className="auth-page signin-page">
       <section className="auth-layout">
         <motion.div className="auth-copy" initial={{ y: 22, opacity: 0 }} animate={{ y: 0, opacity: 1 }}>
-          <p className="eyebrow">Terraio Console</p>
+          <p className="eyebrow">Terraviza Console</p>
           <h1>Sign in to your climate intelligence workspace.</h1>
           <p>Access portfolio maps, adaptation plans, financial scenarios and executive reports from one secure enterprise console.</p>
           <div className="auth-proof">
@@ -564,7 +564,7 @@ function SignInPage() {
           </div>
         </motion.div>
         <motion.form className="auth-card" initial={{ y: 24, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1 }}>
-          <img src={logoSrc} alt="Terraio" />
+          <img src={logoSrc} alt="Terraviza" />
           <h2>Welcome back</h2>
           <label>Email address<input type="email" placeholder="name@company.com" /></label>
           <label>Password<input type="password" placeholder="Enter your password" /></label>
@@ -586,8 +586,8 @@ function RequestDemoPage() {
       <section className="request-hero">
         <div>
           <p className="eyebrow">Request Demo</p>
-          <h1>See how Terraio turns climate risk into financial action.</h1>
-          <p>Tell us about your portfolio, risk workflow or municipality. The Terraio team will tailor a live walkthrough around your climate decisions.</p>
+          <h1>See how Terraviza turns climate risk into financial action.</h1>
+          <p>Tell us about your portfolio, risk workflow or municipality. The Terraviza team will tailor a live walkthrough around your climate decisions.</p>
           <div className="demo-highlights">
             {["Asset-level climate map", "Adaptation recommendation workflow", "Insurance and budget impact model"].map((item) => <span key={item}><Check size={16} /> {item}</span>)}
           </div>
@@ -605,7 +605,7 @@ function RequestDemoPage() {
             <label>Organisation<input placeholder="Company or municipality" /></label>
             <label>Role<select><option>Real estate owner</option><option>Insurer</option><option>Lender</option><option>Municipality</option><option>Climate or risk team</option></select></label>
             <label>Portfolio size<select><option>Under 100 assets</option><option>100-1,000 assets</option><option>1,000-10,000 assets</option><option>10,000+ assets</option></select></label>
-            <label>Primary interest<select><option>Terraio Map</option><option>Terraio Actions</option><option>Terraio Finance</option><option>Full platform</option></select></label>
+            <label>Primary interest<select><option>Terraviza Map</option><option>Terraviza Actions</option><option>Terraviza Finance</option><option>Full platform</option></select></label>
           </div>
           <label>What would you like to evaluate?<textarea placeholder="Flood exposure, insurance renewals, adaptation capex, municipal planning..." /></label>
           <button type="button">Request Demo</button>
@@ -687,10 +687,10 @@ function Footer() {
   return (
     <footer>
       <div className="footer-grid">
-        <div><img src={logoSrc} alt="Terraio" /><p>Climate intelligence for assets, portfolios and public infrastructure.</p></div>
+        <div><img src={logoSrc} alt="Terraviza" /><p>Climate intelligence for assets, portfolios and public infrastructure.</p></div>
         <div><strong>Products</strong>{products.map((p) => <a key={p.slug} href={p.href}>{p.name}</a>)}</div>
         <div><strong>Company</strong><a href="/#pricing">Pricing</a><a href="/#faq">FAQ</a><a href="/signin">Sign In</a><a href="/request-demo">Request Demo</a></div>
-        <div><strong>Contact</strong><span>Terraio Sp. z o.o.</span><span>Rondo Daszyńskiego 2B</span><span>00-843 Warsaw</span><span>Poland</span><a href="mailto:hello@terraio.io">hello@terraio.io</a></div>
+        <div><strong>Contact</strong><span>Terraviza Sp. z o.o.</span><span>Rondo Daszyńskiego 2B</span><span>00-843 Warsaw</span><span>Poland</span><a href="mailto:hello@terraviza.com">hello@terraviza.com</a></div>
       </div>
     </footer>
   );
